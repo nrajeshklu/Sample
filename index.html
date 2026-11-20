@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My First Web Page</title>
+      <link rel="stylesheet" type="text/css" href="index.css">
+             
+</head>
+<body>
+   <h1>Registration form</h1>  
+<form>
+<table>
+<tr>
+     <td><label class="unamelabel">Enter Your Name:</label></td>
+     <td><input type="text" id="uname"></td>
+</tr>
+<tr>
+   <td>
+   <label class="ufnamelabel">Enter Father Name:</label></td>
+   <td> <input type="text" name="fname" style="color:blue;"></td>
+</tr>
+
+   <tr>
+     <td><label>Enter Mother Name:</label> </td>
+     <td><input type="text" name="mname"> </td>
+     
+  </tr><br><br>
+<tr><td><label>Enter Your Mobile number:</label></td><td><input type="number" name="mobile"></td></tr>
+   <br><br>
+ <tr>  <td><label>Enter your Email id:</label></td><td><input type="email" name="mail"></td></tr><br><br>
+   <td><label>Enter your Address:</label></td><td><textarea name="address" ></textarea></td>
+   </table>
+   <label>Enter your Gender: </label>
+   <input type="radio" name="gender" value="male"> Male
+   <input type="radio" name="gender" value="female"> Female
+   <input type="radio" name="gender" value="other"> Other <br><br>
+   <label>Select your hobbies:</label><br>
+   <input type="checkbox" name="hobbies" value="reading"> Reading
+   <input type="checkbox" name="hobbies" value="writing"> Writing
+   <input type="checkbox" name="hobbies" value="swimming"> Swimming<br><br>
+<label>Select your country:</label>
+<select name="country">
+     <option value="india">India</option>
+     <option value="usa">USA</option>   
+     <option value="uk">UK</option>
+     <option value="australia">Australia</option>
+</select><br><br>
+<label>Select your state:</label>
+<select name="state">
+     <option value="maharashtra">Maharashtra</option>
+     <option value="gujarat">Gujarat</option>   
+     <option value="rajasthan">Rajasthan</option>
+     <option value="punjab">Punjab</option>
+</select><br><br>
+<label style="color:rgb(255, 55, 0)">Enter Your Password:</label> <input type="password" name="pwd"><br><br>
+<label>Date of Birth:</label> <input type="date" name="dob"><br><br>
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+</form>
+   </body>
+</html>
