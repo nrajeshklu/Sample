@@ -82,3 +82,32 @@
     border-radius: 12px;
     cursor: pointer;
 }
+.page {
+    padding: 35px 5%;
+}
+.page p {
+    color: #91a8c5;
+}
+.kpi-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    margin-bottom: 30px;
+}
+.kpi-card, .panel {
+    background: #52698a;
+    border: 1px solid #29548d;
+    border-radius: 12px;
+}
+.kpi-card {
+    padding: 22px;
+    transition: 0.2s;
+}
+.kpi-card {
+    padding: 22px;
+    transition: 0.2s;
+}
+.kpi-card:hover {
+    border-color: #438cff;
+    transform: translateY(-3px);
+}
